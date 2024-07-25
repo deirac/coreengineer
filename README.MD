@@ -1,9 +1,6 @@
-Aquí tienes el README actualizado con la información de las diferentes páginas para el proyecto CorEngineer:
+#CorEngineer - Landing Page
 
-```markdown
-# CorEngineer - Landing Page
-
-## Descripción del Proyecto
+##Descripción del Proyecto
 
 El objetivo de este proyecto es crear una landing page para CorEngineer, dirigida a potenciales clientes y socios. La landing page proporcionará información sobre la empresa y sus servicios, y puede incluir un formulario de contacto. El proyecto contará con las siguientes páginas:
 
@@ -12,15 +9,15 @@ El objetivo de este proyecto es crear una landing page para CorEngineer, dirigid
 - Página "About Us"
 - Página de contactos
 
-## Metodología SCRUM
+##Metodología SCRUM
 
-### 1. Planificación Inicial
+###1. Planificación Inicial
 
 - **Objetivo**: Crear una landing page para CorEngineer.
 - **Público objetivo**: Potenciales clientes y socios.
 - **Funcionalidades principales**: Información de la empresa, servicios, formulario de contacto.
 
-### 2. Creación del Product Backlog
+###2. Creación del Product Backlog
 
 **Lista de tareas**:
 
@@ -32,7 +29,7 @@ El objetivo de este proyecto es crear una landing page para CorEngineer, dirigid
 - Pruebas y revisión.
 - Despliegue en Firebase.
 
-### 3. División del Trabajo en Sprints
+###3. División del Trabajo en Sprints
 
 Divide el proyecto en iteraciones cortas (sprints), cada una con una duración de 1 a 2 semanas.
 
@@ -57,7 +54,7 @@ Divide el proyecto en iteraciones cortas (sprints), cada una con una duración d
   - Pruebas y revisión.
   - Despliegue en Firebase.
 
-### 4. Desarrollo Iterativo
+###4. Desarrollo Iterativo
 
 - **Planificación del Sprint**:
 
@@ -71,7 +68,7 @@ Divide el proyecto en iteraciones cortas (sprints), cada una con una duración d
   - Desarrollar las funcionalidades planificadas.
   - Revisar el código y hacer pruebas.
 
-### 5. Revisión y Retrospectiva
+###5. Revisión y Retrospectiva
 
 - **Sprint Review**:
 
@@ -82,7 +79,7 @@ Divide el proyecto en iteraciones cortas (sprints), cada una con una duración d
   - Evaluar lo que funcionó bien y lo que se puede mejorar.
   - Planificar mejoras para el siguiente sprint.
 
-### 6. Entrega y Despliegue
+###6. Entrega y Despliegue
 
 - **Pruebas finales**:
 
@@ -93,16 +90,16 @@ Divide el proyecto en iteraciones cortas (sprints), cada una con una duración d
   - Desplegar la landing page en Firebase.
   - Monitorear el rendimiento y solucionar cualquier problema post-despliegue.
 
-## Herramientas de Soporte
+##Herramientas de Soporte
 
 - **Gestión de tareas**: Trello, Jira, o GitHub Projects.
 - **Control de versiones**: Git y GitHub.
 - **Comunicación**: Slack o Microsoft Teams.
 - **Despliegue**: Firebase.
 
-## Ejemplo de Sprint Planning para CorEngineer
+##Ejemplo de Sprint Planning para CorEngineer
 
-### Sprint 1: (1 semana)
+###Sprint 1: (1 semana)
 
 1. **Configurar el entorno de desarrollo**:
 
@@ -117,7 +114,7 @@ Divide el proyecto en iteraciones cortas (sprints), cada una con una duración d
 3. **Desarrollar la plantilla principal (`index.html`)**:
    - Crear un archivo HTML básico con un título y un mensaje de bienvenida.
 
-### Sprint 2: (1 semana)
+###Sprint 2: (1 semana)
 
 1. **Añadir estilos y diseño (CSS)**:
 
@@ -130,7 +127,7 @@ Divide el proyecto en iteraciones cortas (sprints), cada una con una duración d
 3. **Desarrollar la página "About Us" (`about.html`)**:
    - Crear un archivo HTML para la página "About Us".
 
-### Sprint 3: (1 semana)
+###Sprint 3: (1 semana)
 
 1. **Desarrollar la página de contactos (`contact.html`)**:
 
@@ -140,7 +137,7 @@ Divide el proyecto en iteraciones cortas (sprints), cada una con una duración d
    - Crear el formulario en `contact.html`.
    - Configurar Flask para manejar las solicitudes del formulario.
 
-### Sprint 4: (1 semana)
+###Sprint 4: (1 semana)
 
 1. **Pruebas y revisión**:
 
@@ -150,6 +147,3 @@ Divide el proyecto en iteraciones cortas (sprints), cada una con una duración d
 2. **Despliegue en Firebase**:
    - Configurar Firebase.
    - Desplegar la aplicación.
-
-Con esta metodología, podrás mantener el proyecto CorEngineer bien organizado y asegurarte de que todas las tareas se completan de manera eficiente y efectiva. Si necesitas ayuda adicional en cualquier paso, estaré encantado de asistirte.
-```

@@ -1,2 +1,0 @@
-# coreengineer
-Landing page personal
