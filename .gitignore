@@ -21,3 +21,7 @@ instance/
 
 # Node modules (si estás usando Node.js)
 node_modules/
+
+
+# Archivos de extensión propia
+.ce
