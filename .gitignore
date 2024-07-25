@@ -24,4 +24,4 @@ node_modules/
 
 
 # Archivos de extensión propia
-.ce
+*.ce
