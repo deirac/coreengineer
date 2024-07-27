@@ -1,0 +1,147 @@
+:root {
+  --background-color: #30364f;
+  --light-primary-color: #f57c00;
+  --primary-color: #fc944b;
+  --secundary-color: #fe4445;
+  --accent-color: #ffbe58;
+  --primary-text: #e0e0e0;
+  --secondary-text: #6c757d;
+  --divider-color: #22333b;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  font-family: "Montserrat";
+  color: var(--primary-color);
+  background-color: var(--background-color);
+}
+
+/*--------MAIN HEADER-----*/
+.main-header {
+  width: 100%;
+  background-color: var(--divider-color);
+  display: flex;
+  position: relative;
+  position: fixed;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  container-name: header;
+  container-type: inline-size;
+}
+
+.main-header__logo-container {
+  max-height: 70%;
+  height: 5vh;
+  left: 0;
+}
+.main-header__logo {
+  height: 80%;
+  margin: 5px 20px;
+}
+
+.main-header__menu-button {
+  margin: 5px 20px;
+  font-size: 35px;
+  position: absolute;
+  right: 0;
+}
+
+.main-header__checkbox {
+  display: none;
+}
+
+.main-header__nav {
+  background-color: var(--divider-color);
+  display: flex;
+  position: absolute;
+  opacity: 0.9;
+  height: 100vh;
+  width: 100vw;
+  right: -100vw;
+  top: 0;
+  z-index: -1;
+}
+
+.main-header__checkbox:checked ~ .main-header__nav {
+  right: 0;
+}
+
+.main-header__checkbox:checked + .main-header__menu-button #menu-icon {
+  color: var(--secundary-color);
+}
+
+.main-header__checkbox:checked + .main-header__menu-button #menu-icon::before {
+  content: "\f00d";
+}
+
+.main-header__nav-list {
+  display: flex;
+  flex-direction: column;
+  height: 40vh;
+  margin: auto;
+  margin: 40px 20px;
+  justify-content: space-evenly;
+  text-align: justify;
+}
+
+.main-header__nav-item a,
+i {
+  color: var(--accent-color);
+  font-size: 25px;
+  font-weight: bold;
+  margin: 5px 15px;
+  padding: 0;
+}
+
+.main-header__nav-item a:not(:hover) {
+  font-size: 20px;
+  color: var(--primary-color);
+  margin-left: 20px;
+  font-weight: normal;
+}
+
+/*_______HEADER QUERIES___________*/
+
+@container header (min-width: 600px) {
+  .main-header__nav {
+    color: #fe4445;
+  }
+}
+
+/*-----------FOOTER--------------*/
+
+footer {
+  width: 100%;
+  max-height: 15vh;
+  height: 7vh;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color: var(--divider-color);
+  align-items: center;
+  text-align: center;
+  z-index: 10;
+}
+
+footer p {
+  padding: auto;
+  margin: auto;
+  padding-top: 10px;
+  margin-top: 5px;
+}
+
+.corengineer {
+  font-weight: bold;
+  font-size: 20px;
+}

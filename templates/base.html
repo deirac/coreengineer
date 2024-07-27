@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{% block title %}CorEngineer{% endblock %}</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/base.css') }}"
+    />
+    <link
+      rel="icon"
+      href="{{ url_for('static', filename='img/logo/logo_inskape.svg') }}"
+      type="image/png"
+    />
+  </head>
+  <body>
+    <header class="main-header">
+      <!--LOGO HEADER-->
+
+      <a href="{{url_for('home')}}" class="main-header__link-logo">
+        <div class="main-header__logo-container">
+          <img
+            src="{{url_for('static', filename='img/logo/logo_inskape.svg')}}"
+            alt="logo CorEngineer"
+            class="main-header__logo"
+          />
+        </div>
+      </a>
+
+      <!--NAV HEADER-->
+      <nav class="main-header__nav">
+        <ul class="main-header__nav-list">
+          <li class="main-header__nav-item">
+            <a href="{{ url_for('home') }}">Inicio</a>
+          </li>
+          <li class="main-header__nav-item">
+            <a href="{{ url_for('projects') }}">Proyectos</a>
+          </li>
+          <li class="main-header__nav-item">
+            <a href="{{ url_for('about') }}">Sobre Nosotros</a>
+          </li>
+          <li class="main-header__nav-item">
+            <a href="{{ url_for('contact') }}">Contacto</a>
+          </li>
+        </ul>
+      </nav>
+      <!--MENU BUTTON-->
+      <input type="checkbox" class="main-header__checkbox" id="menu-button" />
+      <label
+        for="menu-button"
+        class="main-header__menu-button"
+        role="button"
+        alt="menu"
+      >
+        <i id="menu_icon" class="fa-solid fa-bars"></i>
+      </label>
+    </header>
+
+    <main>
+      {% block content %}
+      <!-- Contenido específico de cada página irá aquí -->
+      {% endblock %}
+    </main>
+
+    <footer>
+      <p>&copy; 2024 CorEngineer. Todos los derechos reservados.</p>
+    </footer>
+  </body>
+</html>
