@@ -1,0 +1,37 @@
+[
+  {
+    "image": "img/logo/logo_inskape.svg",
+    "title": "Visual Studio Code (VSC)",
+    "description": "Descubre las características y extensiones de Visual Studio Code, un editor de código fuente gratuito y poderoso. Aprende a configurarlo y personalizarlo para maximizar tu productividad. Visual Studio Code, a menudo abreviado como VS Code, es un editor de código fuente desarrollado por Microsoft que ha ganado popularidad rápidamente entre los desarrolladores de todo el mundo. Este editor, disponible de forma gratuita, combina simplicidad y poder en una sola herramienta, lo que lo convierte en una opción ideal tanto para principiantes como para profesionales experimentados."
+  },
+  {
+    "image": "img/logo/logo_inskape.svg",
+    "title": "HTML y CSS",
+    "description": "Aprende los fundamentos de HTML y CSS para crear sitios web impresionantes. Este curso gratuito te llevará desde lo básico hasta técnicas avanzadas de diseño web."
+  },
+  {
+    "image": "img/logo/logo_inskape.svg",
+    "title": "Git y GitHub",
+    "description": "Domina Git y GitHub, las herramientas esenciales para el control de versiones y la colaboración en proyectos de desarrollo. Aprende a gestionar tu código de manera eficiente y colaborar con otros desarrolladores."
+  },
+  {
+    "image": "img/logo/logo_inskape.svg",
+    "title": "Python",
+    "description": "Domina Python, uno de los lenguajes de programación más populares y versátiles. Este curso gratuito cubre desde conceptos básicos hasta aplicaciones avanzadas."
+  },
+  {
+    "image": "img/logo/logo_inskape.svg",
+    "title": "Flask",
+    "description": "Conviértete en un experto en Flask, un microframework de Python para el desarrollo web. Aprende a crear aplicaciones web robustas y escalables con este curso gratuito."
+  },
+  {
+    "image": "img/logo/logo_inskape.svg",
+    "title": "Firebase",
+    "description": "Aprende a utilizar Firebase, una plataforma de desarrollo de aplicaciones de Google. Este curso gratuito te enseñará a integrar autenticación, bases de datos en tiempo real, almacenamiento y más en tus aplicaciones."
+  },
+  {
+    "image": "img/logo/logo_inskape.svg",
+    "title": "Arduino",
+    "description": "Aprende a utilizar Firebase, una plataforma de desarrollo de aplicaciones de Google. Este curso gratuito te enseñará a integrar autenticación, bases de datos en tiempo real, almacenamiento y más en tus aplicaciones."
+  }
+]

@@ -1,2 +1,22 @@
-{% extends 'base.html' %} {% block title %}Inicio - CorEngineer{% endblock %} {%
-block content %} {% endblock %}
+{% extends 'base.html' %} {% block title %} Inicio - CorEngineer {% endblock %}
+{%block css_link%}
+<link rel="stylesheet" href="{{url_for('static', filename='css/index.css')}}" />
+{% endblock %} {% block content %}
+<section class="index">
+  <div class="index__background"></div>
+  <div class="index-grid">
+    <div class="index-grid__item">
+      <dev class="index-grid__logo-container">
+        <img
+          src="{{url_for('static', filename='img/logo/logo_inskape.svg')}}"
+          alt="logo corengineer"
+          class="index-grid__logo"
+        />
+        <h1 class="index-grid__title">CORENGINEER</h1>
+        <h2 class="index-grid__subtitle">THE CORE OF INNOVATION</h2>
+      </dev>
+    </div>
+    {% include 'card.html' %}
+  </div>
+</section>
+{% endblock %}

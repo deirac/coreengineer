@@ -1,10 +1,18 @@
 from flask import Flask, render_template
+import json
+import os
 
 app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return render_template('index.html')
+    json_path = os.path.join(app.root_path, 'json', 'index_cards.json' )
+
+    with open(json_path, 'r', encoding='utf-8') as f:
+        cards =json.load(f)
+
+    return render_template('index.html', cards=cards)
+
 
 @app.route('/projects')
 def projects():

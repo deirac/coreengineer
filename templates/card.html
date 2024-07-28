@@ -1,0 +1,17 @@
+{% for card in cards %}
+<div class="index-grid__item">
+  <div class="card">
+    <div class="card__image-container">
+      <img
+        src="{{url_for('static', filename='img/logo/logo_inskape.svg')}}"
+        alt="Card Image"
+        class="card__image"
+      />
+    </div>
+    <div class="card__content">
+      <h3 class="card__title">{{card.title}}</h3>
+      <p class="card__description">{{ card.description }}</p>
+    </div>
+  </div>
+</div>
+{% endfor %}
